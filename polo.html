@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polo - Cima Equestre</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="popup-overlay" id="popup-overlay" hidden>
+        <div class="popup-card" id="popup-card" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+            <div class="popup-card-header">
+                <h2 id="popup-title"></h2>
+                <button type="button" class="popup-close" id="popup-close" aria-label="Cerrar popup">×</button>
+            </div>
+            <p id="popup-text"></p>
+        </div>
+    </div>
+
+    <header>
+
+        <menu class="menu-general">
+            <ul>
+                <li class="items-menu-general">
+                    <a href="#" class="popup-trigger" data-popup-title="Quienes Somos" data-popup-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Quienes Somos</a>
+                </li>
+                <li class="items-menu-general">
+                    <a href="#" class="popup-trigger" data-popup-title="Contacto" data-popup-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">Contacto</a>
+                </li>
+                <li class="items-menu-general">
+                    <a href="#" class="popup-trigger" data-popup-title="Preguntas Frecuentes" data-popup-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tincidunt lacus, eget malesuada justo dictum et. Aliquam erat volutpat. Phasellus tincidunt lacus et maximus tincidunt, libero orci fermentum elit, vitae ullamcorper ipsum augue vitae velit.">Preguntas Frecuentes</a>
+                </li>
+                <li class="items-menu-general" id="pedido-text">
+                    <a href="pedidos.html">Realizar un pedido</a>
+                </li>
+            </ul>
+        </menu>
+
+        <section class="caja-logo">
+            <a href="index.html" class="logoimg">
+                <img src="imgs\logoEcuestreFondoless.png" alt="logo-de-cima-equestre">
+            </a>
+            <div class="logotext">
+                <h1><a href="index.html">CIMA DEL POLO</a></h1>
+            </div>
+        </section>
+
+        <div class="cards-row">
+            <a class="card-link" href="turf.html">
+                <div class="card" style="width: 18rem;">
+                    <img src="imgs\imgCardCimaTurf.png" class="card-turf" alt="card-de-cima-de-turf">
+                    <div class="card-body">
+                    <h5 class="card-title">CIMA DEL TURF</h5>
+                    <h6 class="card-text">Confeccion a medida para jinetes</h6>
+                    <p>Chaquetillas de carrera, pantalones, cascos personalizados, botas técnicas.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="card-link" href="polo.html">
+                <div class="card" style="width: 18rem;">
+                    <img src="imgs\imgCardCimaPolo.png" class="card-turf" alt="card-de-cima-de-turf">
+                    <div class="card-body">
+                    <h5 class="card-title">CIMA DEL POLO</h5>
+                    <h6 class="card-text">Equipamiento de polo exclusivo</h6>
+                    <p>Camisas de polo, pantalones, cascos de polo, accesorios.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a class="card-link" href="equitacion.html">
+                <div class="card" style="width: 18rem;">
+                    <img src="imgs\imgCardEquitacion.png" class="card-turf" alt="card-de-cima-de-turf">
+                    <div class="card-body">
+                    <h5 class="card-title">CIMA DE EQUITACION</h5>
+                    <h6 class="card-text">Trajes de concurso y salto</h6>
+                    <p>Casacas de concurso, pantalones de salto, camisas tecnicas, equipamiento de salto.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="inventario-polo">
+            <div>
+                <h3 class="inventario-polo-titulo">EN CONSTRUCCION</h3>
+            </div>
+
+            <div class="grid-turf">
+                <div class="under-construction">
+                    <h5>Esta sección está en construcción</h5>
+                    <p>Próximamente vas a encontrar el catálogo de polo y toda la información de esta categoría.</p>
+                </div>
+            </div>
+            
+        </section>
+    
+    </main>
+
+    <footer>
+
+        <menu class="menu-footer">
+            <ul>
+                <li>
+                    <a href="#" class="popup-trigger" data-popup-title="Quienes Somos" data-popup-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">Quienes Somos</a>
+                </li>
+                <li>
+                    <a href="#" class="popup-trigger" data-popup-title="Contacto" data-popup-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">Contacto</a>
+                </li>
+                <li>
+                    <a href="#" class="popup-trigger" data-popup-title="Preguntas Frecuentes" data-popup-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tincidunt lacus, eget malesuada justo dictum et. Aliquam erat volutpat. Phasellus tincidunt lacus et maximus tincidunt, libero orci fermentum elit, vitae ullamcorper ipsum augue vitae velit.">Preguntas Frecuentes</a>
+                </li>
+                <li>
+                    <a href="pedidos.html">Realizar un pedido</a>
+                </li>
+            </ul>
+        </menu>
+
+        <p>&copy; Cima Equestre - Todos los derechos reservados</p>
+
+    </footer>
+
+    <script>
+        const popupOverlay = document.getElementById('popup-overlay');
+        const popupTitle = document.getElementById('popup-title');
+        const popupText = document.getElementById('popup-text');
+        const popupClose = document.getElementById('popup-close');
+
+        function openPopup(title, text) {
+            popupTitle.textContent = title;
+            popupText.textContent = text;
+            popupOverlay.hidden = false;
+        }
+
+        function closePopup() {
+            popupOverlay.hidden = true;
+        }
+
+        document.querySelectorAll('.popup-trigger').forEach((trigger) => {
+            trigger.addEventListener('click', (event) => {
+                event.preventDefault();
+                openPopup(trigger.dataset.popupTitle, trigger.dataset.popupText);
+            });
+        });
+
+        popupClose.addEventListener('click', closePopup);
+
+        popupOverlay.addEventListener('click', (event) => {
+            if (event.target === popupOverlay) {
+                closePopup();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                closePopup();
+            }
+        });
+    </script>
+    
+</body>
+</html>
