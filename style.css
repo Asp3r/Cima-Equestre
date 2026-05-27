@@ -607,18 +607,31 @@ body {
     .cards-row {
         flex-direction: column;
         align-items: stretch;
-        gap: 1rem;
+        /*gap: 1rem;*/
         margin: 1.25rem 0;
+
+        /*Tratando de hacer el 2x2*/
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /*gap: 1rem;*/
+        gap: 2%;
+
+        justify-items: center;
+
+        /*Fin del intento de 2x2*/
     }
 
     .card-link {
         display: block;
-        width: 100%;
+        /*width: 100%;*/
+        width: 80%;
     }
 
     .card {
-        min-height: auto;
-        width: 100% !important;
+        /* min-height: auto;*/
+        min-height: 100%;
+        /*width: 100% !important;*/
         max-width: 100%;
     }
 
@@ -627,7 +640,7 @@ body {
         height: auto;
         display: block;
     }
-
+    
     .grid-turf {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
