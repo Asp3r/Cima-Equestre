@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #DFD6A7;
 }
+
 .card-link {
     display: inline-block;
     text-decoration: none;
@@ -22,7 +23,7 @@ body {
 .card {
     text-align: center;
     transition: transform 0.25s ease;
-    min-height: 30em;
+    min-height: 25em;
     background-color: #DFD6A7;
 }
 
